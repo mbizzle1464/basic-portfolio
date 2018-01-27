@@ -1,0 +1,59 @@
+header {    
+    text-align: center;  
+    background-color: #ffffff;  
+    border-bottom: 2px solid #cccccc; 
+    padding: 46px;    
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+h1 {
+    color: #ffffff; 
+}
+#boxed {
+    background: #4aaaa5;    
+    position: absolute;
+    text-align: center; 
+    width: 200px;   
+    height: 60px; 
+    top: 0; 
+    left: 470px; 
+    padding: 20px;      
+}
+#absolute {
+    background: #ffffff;  
+    position: absolute; 
+    text-align: center; 
+    width: 250px;  
+    height: 60px;   
+    bottom: 0;
+    right: -740px;
+    padding: 0px;   
+} 
+li {
+    text-decoration: none; 
+    color: #777777; 
+    display: inline-block;  
+    list-style-type: none;   
+} 
+#absolute li { 
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height: 80%; 
+}
+#Portfolio { 
+    border-right: 1px solid #cccccc;   
+    padding-right: 10px;
+    padding-left: 10px; 
+}
+#about {
+    border-right: 1px solid #cccccc;   
+    padding-right: 10px;   
+}
+#Contact {
+    padding-left: 10px;   
+}
+footer {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center; 
