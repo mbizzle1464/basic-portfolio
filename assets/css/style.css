@@ -1,59 +1,70 @@
-header {    
+* {
+    box-sizing: border-box; 
+}
+body {
+    margin: 0;
+}
+header {
     text-align: center;  
     background-color: #ffffff;  
-    border-bottom: 2px solid #cccccc; 
-    padding: 46px;    
+    border-bottom: 2px solid #cccccc;
+    float: left;
+    width:100%;
 }
-.container {
-    width: 960px;
+#name {
+    background-color: #4aaaa5;  
+    color: #ffffff;
     margin: 0 auto;
+    float: left;  
+    position: fixed;
+    padding: 14px;    
+    top: 0;
+    left: 190px;
 }
-h1 {
-    color: #ffffff; 
+h2, h3 {
+    color: #4aaaa5; 
 }
-#boxed {
-    background: #4aaaa5;    
-    position: absolute;
-    text-align: center; 
-    width: 200px;   
-    height: 60px; 
-    top: 0; 
-    left: 470px; 
-    padding: 20px;      
+ul {
+    padding: 0; 
 }
-#absolute {
-    background: #ffffff;  
-    position: absolute; 
-    text-align: center; 
-    width: 250px;  
-    height: 60px;   
-    bottom: 0;
-    right: -740px;
-    padding: 0px;   
-} 
 li {
-    text-decoration: none; 
     color: #777777; 
-    display: inline-block;  
-    list-style-type: none;   
-} 
-#absolute li { 
+    display: inline;  
+    list-style-type: none;
     font-family: Arial, Helvetica, sans-serif; 
     line-height: 80%; 
 }
-#Portfolio { 
+#page-links {
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height: 80%; 
+    float: left;
+    position: fixed;
+    top: 0;
+    right: 190px;    
+}
+#about {
+    border-right: 1px solid #cccccc;   
+    padding-right: 10px;
+}
+#portfolio {
     border-right: 1px solid #cccccc;   
     padding-right: 10px;
     padding-left: 10px; 
 }
-#about {
-    border-right: 1px solid #cccccc;   
-    padding-right: 10px;   
+#contact {
+    padding-left: 10px; 
 }
-#Contact {
-    padding-left: 10px;   
+.container {
+    position: relative;   
+    width: 960px;
+    margin: 0 auto; 
+}
+#about {
+
+}
+#sidebar {
+
 }
 footer {
-    width: 960px;
-    margin: 0 auto;
-    text-align: center; 
+
+}
