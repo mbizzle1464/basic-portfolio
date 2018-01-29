@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,64 +11,71 @@
 </head>
 
 <body>
-    <header>
-        <h1 id="name">Michael Bizzle</h1>
-        <ul id="page-links">
-            <li id="about">
-                <a href="index.html">About</a>
-            </li>
-            <li id="portfolio">
-                <a href="portfolio.html">Portfolio</a>
-            </li>
-            <li id="contact">
-                <a href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <div class="container">
-    
-        <section id="Main">
-            <div class ="about">
-                <h2>About Me</h2>
-            </div>
-            <img src="assets/images/Profile.jpg" alt="Michael Bizzle" id="bio-image" width="200px" height="200px" >
-    
-            <p>I am the Loyalty Retention Manager at Studio Movie Grill Home Office. I am responsible for mass communication to our guests
-                through email and mobile sends.  Our goal is to optimize our send practices with data driven segmented campaigns.  I am also in charge 
-                of managing our Guest Services Department. I implemented the CRM ticketing system (Zendesk) for resolving guest related issues.</p>
-            <p>I started coding when I was promoted to the current role I am in now.  I started working with html emails and became intimate with
-                understaing the art of html/css.  I absolutely love working with code and decided to commit myself to this craft.  I am currently 
-                placed in SMU's Full Stack Web Development Part-time course to take myself to the next level. 
-            </p> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor consectetur malesuada. Interdum et malesuada
-                fames ac ante ipsum primis in faucibus. Praesent tristique varius enim feugiat convallis. Sed eget bibendum mauris. Vestibulum
-                placerat ligula purus, vel imperdiet justo ultrices at. Curabitur at eleifend orci. In vel condimentum augue. Vivamus
-                tristique leo non pulvinar tristique. Morbi vel dictum neque, nec facilisis purus. Vestibulum faucibus sollicitudin tempus.
-                Sed tincidunt metus eu ante dictum tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Mauris ullamcorper libero id ullamcorper efficitur.</p>
-        </section>
+    <div class="border">
+        <div class="wrapper">
+            <header>
+                <h1>
+                    <a href="index.html" id="logo">Michael Bizzle</a>
+                </h1>
+                <ul class="nav">
+                    <li id="about">
+                        <a href="index.html">About</a>
+                    </li>
+                    <li id="portfolio">
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li id="contact">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </header>
+        </div>
+        <div class="container">
+            <section id="main">
+                <div class="about">
+                    <h2>About Me</h2>
+                </div>
+                <img src="assets/images/Profile.jpg" alt="Michael Bizzle" id="bio-image" width="200px" height="200px">
+
+                <p>I am the Loyalty Retention Manager at Studio Movie Grill Home Office. I am responsible for mass communication
+                    to our guests through email and mobile sends. Our goal is to optimize our send practices with data driven
+                    segmented campaigns. I am also in charge of managing our Guest Services Department. I implemented the
+                    CRM ticketing system (Zendesk) for resolving guest related issues.</p>
+                <p class="float">I started coding when I was promoted to the current role I am in now. I started working with html emails
+                    and became intimate with understaing the art of html/css. I absolutely love working with code and decided
+                    to commit myself to this craft. I am currently placed in SMU's Full Stack Web Development Part-time course
+                    to take myself to the next level.
+                </p>
+                <br>
+            </section>
         <section id="sidebar">
-            <h3>Connect with Me</h3>
+            <div class="about">
+                <h3>Connect with Me</h3>
+            </div>
             <ul>
-                <li id="image">                    
-                    <a href="https://github.com/mbizzle1464">
-                    <img src="assets/images/github.png" alt"Github" id="github-image" width="50px" height="50px"></a>
-                </li>
                 <li id="image">
                     <a href="https://github.com/mbizzle1464">
-                    <img src="assets/images/linkedin.png" alt="Linkedin" id="linkedin" width="50px" height="50px"></a>
+                        <img src="assets/images/github.png" alt "Github" id="github-image" width="50px" height="50px">
+                    </a>
                 </li>
                 <li id="image">
-                    <a href="https://github.com/mbizzle1464">
-                    <img src="assets/images/stackoverflow.png" alt="Stackoverflow" id="stackoverflow" width="50px" height="50px"></a>
+                    <a href="https://www.linkedin.com/in/michael-bizzle-3107b73b/">
+                        <img src="assets/images/linkedin.png" alt="Linkedin" id="linkedin" width="50px" height="50px">
+                    </a>
+                </li>
+                <li id="image">
+                    <a href="https://stackoverflow.com/users/8959778/michael-bizzle">
+                        <img src="assets/images/stackoverflow.png" alt="Stackoverflow" id="stackoverflow" width="50px" height="50px">
+                    </a>
                 </li>
             </ul>
         </section>
     </div>
 </body>
-<footer>
+<footer class="footer">
     <tr>
         <td>Copyright © 2018 Michael Bizzle</td>
     </tr>
 </footer>
+
 </html>

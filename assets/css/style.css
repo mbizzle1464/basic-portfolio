@@ -1,28 +1,64 @@
 * {
     box-sizing: border-box; 
 }
-body {
-    margin: 0;
+html { 
+    margin: 0 auto; 
 }
-header {
-    text-align: center;  
-    background-color: #ffffff;  
+.border {
     border-bottom: 2px solid #cccccc;
-    float: left;
-    width:100%;
-}
-#name {
-    background-color: #4aaaa5;  
-    color: #ffffff;
     margin: 0 auto;
-    float: left;  
-    position: fixed;
-    padding: 14px;    
-    top: 0;
-    left: 190px;
+}
+body {
+    margin: 0;  
+    padding: 0; 
+    height: 100%; 
+}
+
+header {
+    margin: 0 auto;  
+    text-align: center;
+    background-color: #ffffff;
+    position: relative; 
+    height: 90px;  
+    width: 100%;    
+}
+a {
+    text-decoration: none; 
+    color: #777777;  
+}
+h1 {
+    margin: 0 auto; 
+    height: 88px;
+}
+h1 a {
+    color: #ffffff; 
+}
+#logo {
+    background-color: #4aaaa5;
+    font-size: 32px;    
+    line-height: 150%;  
+    text-decoration: none;  
+    margin: 0 auto;
+    padding: 21px;    
+    float: left;        
+}
+.nav {
+    line-height: 600%;  
+    float: right;   
+    margin: 0 auto; 
+    position: absolute;
+    top: 0; 
+    right: 0;   
 }
 h2, h3 {
     color: #4aaaa5; 
+    font-weight: bold;  
+}
+h2{ 
+    font-size: 28px;    
+}
+h3 {
+    font-size: 20px;    
 }
 ul {
     padding: 0; 
@@ -34,37 +70,134 @@ li {
     font-family: Arial, Helvetica, sans-serif; 
     line-height: 80%; 
 }
-#page-links {
-    font-family: Arial, Helvetica, sans-serif; 
-    line-height: 80%; 
-    float: left;
-    position: fixed;
-    top: 0;
-    right: 190px;    
-}
 #about {
     border-right: 1px solid #cccccc;   
-    padding-right: 10px;
+    padding-right: 20px;
 }
 #portfolio {
     border-right: 1px solid #cccccc;   
-    padding-right: 10px;
-    padding-left: 10px; 
+    padding-right: 20px;
+    padding-left: 20px; 
 }
 #contact {
-    padding-left: 10px; 
+    padding-left: 20px; 
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-image: url ('../images/zig-zag-wool.png');    
 }
 .container {
-    position: relative;   
-    width: 960px;
+    width: 960px;   
     margin: 0 auto; 
 }
-#about {
-
+#main {
+    float: left;    
+    width: 650px;
+    margin: 50px 0 50px 0;
+    border: 2px solid #cccccc;
+    background-color: #ffffff;
+    padding: 0 20px 0 20px;  
+}
+#bio-image {
+    float:left;
+    margin-top: 20px;
+    margin-right: 20px; 
+}
+p {
+    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;    
+}
+.float  {
+    margin-top: 20px;
+    padding-left: 5px; 
+    float: left;    
+}
+.about {
+    border-bottom: 2px solid #cccccc;
+}
+.about h3 {
+    text-align: center; 
 }
 #sidebar {
+    float: right;   
+    width: 270px;
+    margin: 50px 0 50px auto;
+    border: 2px solid #cccccc;
+    background-color: #ffffff;
+    padding: 0 50px 0 50px;
 
 }
-footer {
+#stackoverflow {
+    display: inline;
+}
+.column-1 {
+    float: left;
+    padding: 20px 20px 50px 20px;  
 
+}
+.column-2 {
+    float: left;
+    padding: 20px;  
+}
+#box-1 {
+    padding-bottom: 40px;   
+}
+#contact-form  {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;    
+    padding:25px;
+    margin:20px 0;
+    width: 100%
+}
+fieldset {
+    border: medium none !important;
+    margin: 0 0 30px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+fieldset textarea {
+    line-height: 200%;  
+    height: 250px;
+    width: 560px;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 14px;
+    padding-left: 10px; 
+}
+input {
+    width: 560px;
+    margin-top: 10px; 
+    line-height: 200%;    
+    padding-left: 10px;      
+}
+button {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: none;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px; 
+    text-align: center; 
+    line-height: 200%;     
+    padding: 5px 50px 5px 50px;   
+}
+
+footer {
+    clear: both;
+    text-align: center; 
+    font-size: 10px; 
+    font-family: Arial, Helvetica, sans-serif;     
+    color: #ffffff;
+    background-color: #777777;
+    border-top: 6px solid #4aaaa5;  
+    padding: 20px;    
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;    
 }
