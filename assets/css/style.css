@@ -135,15 +135,22 @@ p {
 .column-1 {
     float: left;
     padding: 20px 20px 50px 20px;  
+    position: relative; 
 
 }
 .column-2 {
     float: left;
-    padding: 20px;  
+    padding: 20px; 
+    position: relative;  
 }
 #box-1 {
     padding-bottom: 40px;   
+    z-index: 1; 
 }
+#box-3 {
+    padding-bottom: 40px;
+}
+
 #contact-form  {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -199,5 +206,6 @@ footer {
     margin: 0 auto;
     position: fixed;
     bottom: 0;
-    left: 0;    
+    left: 0;
+ 
 }
