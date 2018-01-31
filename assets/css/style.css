@@ -85,11 +85,12 @@ li {
 .wrapper {
     width: 960px;
     margin: 0 auto;
-    background-image: url ('../images/zig-zag-wool.png');    
 }
 .container {
     width: 960px;   
-    margin: 0 auto; 
+    margin: 0 auto;
+    background-image: url ("assets/images/zig-zag-wool.png");
+ 
 }
 #main {
     float: left;    
@@ -97,7 +98,7 @@ li {
     margin: 50px 0 50px 0;
     border: 2px solid #cccccc;
     background-color: #ffffff;
-    padding: 0 20px 0 20px;  
+    padding: 0 20px 20px 20px;
 }
 #bio-image {
     float:left;
@@ -201,11 +202,7 @@ footer {
     color: #ffffff;
     background-color: #777777;
     border-top: 6px solid #4aaaa5;  
-    padding: 20px;    
+    padding-top: 20px;    
     width: 100%;
-    margin: 0 auto;
-    position: fixed;
-    bottom: 0;
-    left: 0;
- 
+    margin-top: 500px; 
 }
