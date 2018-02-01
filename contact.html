@@ -6,80 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Michael Bizzle Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
 
-<body>
-    <div class="border">
-        <div class="wrapper">
-            <header>
-                <h1>
-                    <a href="index.html" id="logo">Michael Bizzle</a>
-                </h1>
-                <ul class="nav">
-                    <li id="about">
-                        <a href="index.html">About</a>
-                    </li>
-                    <li id="portfolio">
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li id="contact">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </header>
-        </div>
-        </div>
+<body class="site">
+    <header id="masthead">
         <div class="container">
-            <section id="main">
-                <div class="about">
-                    <h2>Contact</h2>
-                </div>
-                <form id="contact-form" action="" method="post">
-                    <fieldset id="name">Name
-                        <input placeholder="John Smith" type="text" tabindex="1" required autofocus>
-                    </fieldset>
-                    <fieldset id="email">Email
-                        <input placeholder="example@gmail.com" type="email" tabindex="2" required>
-                    </fieldset>
-                    <fieldset id="message">Message
-                        <textarea placeholder="Type your Message Here...." tabindex="3" required></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                    </fieldset>
-                </form>
-            </section>
-            <section id="sidebar">
-                <div class="about">
-                    <h3>Connect with Me</h3>
-                </div>
+            <a href="index.html" id="logo">Michael Bizzle</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-content">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
+            <form id="contact-form">
                 <ul>
-                    <li id="image">
-                        <a href="https://github.com/mbizzle1464" target="_blank">
-                            <img src="assets/images/github.png" alt "Github" id="github-image" width="50px" height="50px">
-                        </a>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Smith" type="text" required="required">
                     </li>
-                    <li id="image">
-                        <a href="https://www.linkedin.com/in/michael-bizzle-3107b73b/" target="_blank">
-                            <img src="assets/images/linkedin.png" alt="Linkedin" id="linkedin" width="50px" height="50px">
-                        </a>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="name" placeholder="example@gmail.com" type="text" required="required">
                     </li>
-                    <li id="image">
-                        <a href="https://stackoverflow.com/users/8959778/michael-bizzle" target="_blank">
-                            <img src="assets/images/stackoverflow.png" alt="Stackoverflow" id="stackoverflow" width="50px" height="50px">
-                        </a>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea placeholder="Type your Message Here...." id="message" name="message" required="required"></textarea>
                     </li>
                 </ul>
-            </section>
+                <input type="submit" name="submit">
+            </form>
+        </section>
+
+    <section class="sidebar">
+        <div id="connect">
+            <h2>Connect with Me</h2>
+            <a href="https://github.com/mbizzle1464" target="_blank"><img src="assets/images/github.png" class="social" alt="Github"></a>
+            <a href="https://github.com/mbizzle1464" target="_blank"><img src="assets/images/linkedin.png" class="social" alt="Linkedin"></a>
+            <a href="https://stackoverflow.com/users/8959778/michael-bizzle" target="_blank"><img src="assets/images/stackoverflow.png" class="social" alt="Stackoverflow"></a>
         </div>
+    </section>
+    </div>
+    </main>
+    <footer>
+        <div class="container">
+            Copyright © 2018 Michael Bizzle
+        </div>
+    </footer>
 </body>
-<footer>
-    <tr>
-        <td>Copyright © 2018 Michael Bizzle</td>
-    </tr>
-</footer>
 
 </html>

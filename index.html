@@ -6,77 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Michael Bizzle Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
-    <div class="border">
-        <div class="wrapper">
-            <header>
-                <h1>
-                    <a href="index.html" id="logo">Michael Bizzle</a>
-                </h1>
-                <ul class="nav">
-                    <li id="about">
-                        <a href="index.html">About</a>
-                    </li>
-                    <li id="portfolio">
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li id="contact">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </header>
-        </div>
-        </div>
-        <body>
-        <div class="container"> 
-            <section id="main">
-                <div class="about">
-                    <h2>About Me</h2>
-                </div>
-                <img src="assets/images/Profile.jpg" alt="Michael Bizzle" id="bio-image" width="200px" height="200px">
 
-                <p>I am the Loyalty Retention Manager at Studio Movie Grill Home Office. I am responsible for mass communication
-                    to our guests through email and mobile sends. Our goal is to optimize our send practices with data driven
-                    segmented campaigns. I am also in charge of managing our Guest Services Department. I implemented the
-                    CRM ticketing system (Zendesk) for resolving guest related issues.</p>
-                <p class="float">I started coding when I was promoted to the current role I am in now. I started working with html emails
-                    and became intimate with understaing the art of html/css. I absolutely love working with code and decided
-                    to commit myself to this craft. I am currently placed in SMU's Full Stack Web Development Part-time course
-                    to take myself to the next level.
-                </p>
-                <br>
-            </section>
-        <section id="sidebar">
-            <div class="about">
-                <h3>Connect with Me</h3>
+
+<body class="site">
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Michael Bizzle</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main class="site-content">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>About Me</h1>
+
+            <img src="assets/images/Profile.jpg" class="auth-image" alt="Michael Bizzle">
+
+            <p>I am the Loyalty Retention Manager at Studio Movie Grill Home Office. I am responsible for mass communication
+                to our guests through email and mobile sends. Our goal is to optimize our send practices with data driven
+                segmented campaigns. I am also in charge of managing our Guest Services Department. I implemented the CRM
+                ticketing system (Zendesk) for resolving guest related issues.</p>
+            <p>I started coding when I was promoted to the current role I am in now. I started working with html emails and
+                became intimate with understaing the art of html/css. I absolutely love working with code and decided to
+                commit myself to this craft. I am currently placed in SMU's Full Stack Web Development Part-time course to
+                take myself to the next level.
+            </p>
+        </section>
+
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
+                <a href="https://github.com/mbizzle1464" target="_blank"><img src="assets/images/github.png" class="social" alt="Github"></a>
+                <a href="https://github.com/mbizzle1464" target="_blank"><img src="assets/images/linkedin.png" class="social" alt="Linkedin"></a>
+                <a href="https://stackoverflow.com/users/8959778/michael-bizzle" target="_blank"><img src="assets/images/stackoverflow.png" class="social" alt="Stackoverflow"></a>
             </div>
-            <ul>
-                <li id="image">
-                    <a href="https://github.com/mbizzle1464" target="_blank">
-                        <img src="assets/images/github.png" alt "Github" id="github-image" width="50px" height="50px">
-                    </a>
-                </li>
-                <li id="image">
-                    <a href="https://www.linkedin.com/in/michael-bizzle-3107b73b/" target="_blank">
-                        <img src="assets/images/linkedin.png" alt="Linkedin" id="linkedin" width="50px" height="50px">
-                    </a>
-                </li>
-                <li id="image">
-                    <a href="https://stackoverflow.com/users/8959778/michael-bizzle" target="_blank">
-                        <img src="assets/images/stackoverflow.png" alt="Stackoverflow" id="stackoverflow" width="50px" height="50px">
-                    </a>
-                </li>
-            </ul>
         </section>
     </div>
+    </main>
+    <footer>
+        <div class="container">
+            Copyright © 2018 Michael Bizzle
+        </div>
+    </footer>
 </body>
-<footer class="footer">
-    <tr>
-        <td>Copyright © 2018 Michael Bizzle</td>
-    </tr>
-</footer>
 
 </html>
